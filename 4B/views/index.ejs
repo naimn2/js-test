@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>4B</title>
+</head>
+
+<body>
+    <main>
+        <div class="grid-container">
+            <div class="column" id="book-content"></div>
+            <div class="column" id="category-content"></div>
+            <div class="column" id="writer-content"></div>
+        </div>
+        <div>
+            <h2>Writer</h2>
+            <input type="number" id="writer-id" placeholder="ID">
+            <input type="text" id="writer-name" placeholder="Name">
+            <input type="text" id="writer-address" placeholder="Address">
+            <button class="add" id="add-writer">Add</button>
+            <button class="update" id="update-writer">Update</button>
+        </div>
+        <div>
+            <h2>Category</h2>
+            <input type="number" id="category-id" placeholder="ID">
+            <input type="text" id="category-name" placeholder="Name">
+            <button class="add" id="add-category">Add</button>
+            <button class="update" id="update-category">Update</button>
+        </div>
+        <div>
+            <h2>Book</h2>
+            <input type="number" id="book-id" placeholder="ID">
+            <input type="text" id="book-name" placeholder="Name">
+            <input type="number" id="book-category" placeholder="Category">
+            <input type="number" id="book-writer" placeholder="Writer">
+            <input type="number" id="book-year" placeholder="Publication Year">
+            <input type="text" id="book-img" placeholder="Image URL">
+            <button class="add" id="add-book">Add</button>
+            <button class="update" id="update-book">Update</button>
+        </div>
+    </main>
+    <script src="js/index.js" type="module"></script>
+</body>
+
+</html>

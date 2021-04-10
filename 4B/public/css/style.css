@@ -1,0 +1,69 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 6px 14px;
+}
+
+button.add {
+    background-color: #0f0;
+    color: white;
+    border: #0f0;
+    border-radius: 3px;
+    padding: 10px 8px;
+}
+
+button.update {
+    background-color: blue;
+    color: white;
+    border: blue;
+    border-radius: 3px;
+    padding: 10px 8px;
+}
+
+.btn-delete-writer, .btn-delete-book, .btn-delete-category {
+    background-color: red;
+    color: white;
+    border: red;
+    border-radius: 3px;
+    padding: 10px 8px;
+}
+
+.column > h2 {
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+
+.grid-container > .column {
+    border: 2px solid  purple;
+    border-radius: 8px;
+    background-color: purple;
+    padding: 8px;
+}
+
+.item {
+    border: 2px solid gray;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.item > img {
+    width: 60px;
+    height: 80px;
+}
+
+input {
+    height: 24px;
+    border: 2px solid purple;
+    border-radius: 4px;
+    padding: 3px 8px;
+}
