@@ -1,9 +1,10 @@
 # Untuk Menjalankan Web
-Install Package
+### 1. Install Package
 ```
 npm i
 ```
-Lalu
+### 2. Run mysql server on xampp
+### 3. Start
 ```
 npm start
 ```

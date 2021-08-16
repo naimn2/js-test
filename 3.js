@@ -1,13 +1,23 @@
 const pascal = (derajat) => {
     let segitiga = []
-    for (let i = 0; i <= derajat; i++) {
+    let i = 0;
+    do {
         let baris = []
         for (let j = 0; j <= i; j++) {
             const elemen = (i===0 || j===0 || j===i)? 1: segitiga[i-1][j] + segitiga[i-1][j-1];
             baris.push(elemen);
         }
         segitiga.push(baris);
-    }
+        i++;
+    } while (i <= derajat);
+    // for (let i = 0; i <= derajat; i++) {
+    //     let baris = []
+    //     for (let j = 0; j <= i; j++) {
+    //         const elemen = (i===0 || j===0 || j===i)? 1: segitiga[i-1][j] + segitiga[i-1][j-1];
+    //         baris.push(elemen);
+    //     }
+    //     segitiga.push(baris);
+    // }
     
     // ubah array segitiga ke string
 
